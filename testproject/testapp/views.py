@@ -3,7 +3,7 @@ from django.shortcuts import render
 from .models import City
 from .forms import Cityform
 
-# Create your views here.
+
 def index(request):
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=4d893e7c61a6449cb9907fe4537da3bc'
    
